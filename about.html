@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Warwick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d79897b615.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="subHeader">
+        <nav>
+            <a href="homePage.html"><img src="Images/2.jpeg"></a>
+            <div class="navLinks" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About Us -->
+    <section class="aboutUs">
+        <div class="row">
+            <div class="aboutCol">
+                <h1>Welcome to the University Of Warwick</h1>
+                <p>The University of Warwick  WORR-ik; abbreviated as Warw. in post-nominal letters[4]) is a public research university on the outskirts of Coventry between the West Midlands and Warwickshire, England.[5] The university was founded in 1965 as part of a government initiative to expand higher education. The Warwick Business School was established in 1967, the Warwick Law School in 1968, Warwick Manufacturing Group (WMG) in 1980, and Warwick Medical School in 2000. Warwick incorporated Coventry College of Education in 1979 and Horticulture Research International in 2004.
+                Warwick is primarily based on a 290 hectares (720 acres) campus on the outskirts of Coventry, with a satellite campus in Wellesbourne and a central London base at the Shard. It is organised into three faculties—Arts, Science Engineering and Medicine, and Social Sciences—within which there are 32 departments. As of 2021, Warwick has around 29,534 full-time students and 2,691 academic and research staff.[2] It had a consolidated income of £703.7 million in 2020/21, of which £139.8 million was from research grants and contracts.[1] Warwick Arts Centre is a multi-venue arts complex in the university's main campus and is the largest venue of its kind in the UK, which is not in London.</BR></BR>
+                Warwick has an average intake of 4,950 undergraduates out of 38,071 applicants (7.7 applicants per place).</BR></BR>
+                Warwick's alumni and staff include winners of the Nobel Prize, Turing Award, Fields Medal, Richard W. Hamming Medal, Emmy Award, Grammy, and the Padma Vibhushan, and are fellows to the British Academy, the Royal Society of Literature, the Royal Academy of Engineering, and the Royal Society. Alumni also include heads of state, government officials, leaders in intergovernmental organisations, and the current chief economist at the Bank of England. Researchers at Warwick have also made significant contributions such as the development of penicillin, music therapy, Washington Consensus, second-wave feminism, computing standards, including ISO and ECMA, complexity theory, contract theory, and the International Political Economy as a field of study.</p>
+
+                <a href="" class="HB , HB1">EXPLORE NOW</a>
+            </div>
+            <div class="aboutCol">
+                <img src="Images/4.JPG">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Copyright © - 2022 All Rights Reserved</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Shubham</p>
+    </section>
+
+
+
+    <script>
+
+        var navLink = document.getElementById("navLink");
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
