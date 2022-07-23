@@ -194,7 +194,7 @@ h3{
 /* About Us */
 
 .subHeader{
-    height: 50vh;
+    height: 55vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/3.JPG);
     background-position: center;
